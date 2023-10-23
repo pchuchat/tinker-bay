@@ -76,7 +76,7 @@ export default function Orders() {
 
                                     <div className="py-2">
                                         <span className="font-bold mr-2">Delivery Time:</span>
-                                        {moment(order?.created_at).add(3, 'days').calendar()}
+                                        {moment(order?.created_at).add(6, 'days').calendar()}
                                     </div>
 
                                     <div className="flex items-center gap-4">
