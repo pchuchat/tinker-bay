@@ -1,35 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tinker Bay
 
-## Getting Started
+Tinker Bay on eBayn kaltainen täydellinen pinottu e-commerce-alusta, joka on rakennettu Next.js 13, React, Supabase, Tailwind CSS, Prisma ja Stripe teknologioita hyödyntäen.
 
-First, run the development server:
+## Ominaisuudet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Käyttäjien autentikointi ja autorisointi
+- Tuotteiden listaaminen hakutoiminnolla ja suodattimilla
+- Ostoskori ja kassatoiminnot
+- Maksutapahtumien käsittely Stripe-palvelun avulla
+- Responsiivinen käyttöliittymä Tailwind CSS:llä
+- Tietokanta Supabasen ja Prisman avulla
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologiat
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js 13**: Tuotantoon suunnattu React-kehys.
+- **React**: JavaScript-kirjasto käyttöliittymien rakentamiseen.
+- **Supabase**: Avoin lähdekoodi vaihtoehto Firebase:lle, tarjoaa tietokannan ja autentikoinnin.
+- **Tailwind CSS**: Hyödyllisyys ensin -CSS-kehys nopeaan mukautettujen designien rakentamiseen.
+- **Prisma**: Seuraavan sukupolven Node.js ja TypeScript ORM tietokannoille.
+- **Stripe**: Internet-yritysten online-maksujen käsittelyyn.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Aloittaminen
 
-## Learn More
+Noudata seuraavia ohjeita saadaksesi paikallisen version projektista käyntiin.
 
-To learn more about Next.js, take a look at the following resources:
+### Edellytykset
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js
+- npm tai yarn
+- Supabase-tili
+- Stripe-tili
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Asennus
 
-## Deploy on Vercel
+1. Kloonaa repositorio:
+   ```sh
+   git clone https://github.com/your-username/tinker-bay.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Asenna NPM-paketit:
+    ```sh
+    npm install
+    ````
+3. Aseta Supabasen ja Stripen tunnistetiedot ympäristömuuttujiin .env.local tiedostossa.
+   
+4. Käynnistä kehityspalvelin:
+    ```sh
+    npm run dev
+    ````
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# tinker-bay" 
+## Käyttö
+Käytä tätä projektia pohjana omalle e-commerce-alustallesi. Mukauta käyttöliittymää, lisää uusia ominaisuuksia ja julkaise se omana palvelunasi.
+## Lisenssi
+Jaettu MIT-lisenssin alaisena. Lisätietoja LICENSE-tiedostossa.
+
+       
